@@ -1,0 +1,122 @@
+.work{
+    height: 100vh;
+    margin-top: 80%;
+    padding: 0 10%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(251, 252, 252);
+    width: 320px;
+    
+    height: 220px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 10px ;
+    margin: auto;
+    border-radius: 10px;
+}
+.card:hover{
+    scale: 1.1;
+    transition: 0.3s ease;
+}
+.w-img{
+    position: relative;
+    bottom: 1px;
+    
+
+   
+}
+
+.icon-class{
+    position: absolute;
+  
+    border-radius: 6px;
+    
+    
+}
+
+.icons-e{
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+    color: black;
+
+}
+.h2-w{
+    font-size: 2.5rem;
+   margin-left: 10px;
+   margin: auto;
+    color: black;
+    border: 2px solid black;
+    font-family: raleway;
+    text-transform: uppercase;
+    margin-bottom: 130px;
+    padding: 1% 3%;
+    background-color: white;
+    width: 400px;
+    font-weight: 800;   
+}
+.icons-e:hover{
+    scale: 1.2;
+    transition:0.3s ease;
+}
+.icons-g:hover{
+    scale: 1.2;
+    transition:0.3s ease;
+}
+.icons-g{
+ 
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    margin-left: 80px;
+    color: black;
+}
+.title{
+    margin:auto;
+    font-size: 1rem;
+    font-family: raleway;
+    text-transform: uppercase;
+    color: rgb(7, 6, 6);
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    
+   
+    
+}
+@media only screen and (max-width: 600px) {
+    body{
+        width: 400px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .card{
+        margin-top: 40%;
+        width: 250px;
+        height: 200px;
+        padding: 0;
+        margin: 0 0 50px 0 ;
+     
+    }
+    .w-img{
+        width: 250px;
+    }
+    .work{
+       margin-top: 600%;
+        padding: 0 2%;
+    }
+    .h2-w{
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+        width: 210px;
+        margin-left: 30px;
+    }
+   
+}

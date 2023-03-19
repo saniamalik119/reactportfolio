@@ -1,0 +1,91 @@
+.about{
+    height: 100vh;
+   ;
+    background-size: cover;
+    
+}
+.upper{
+    height: 70vh;
+    background-color: white;
+    position: relative;
+    top: 10%;
+    margin: 0% 10%;
+    padding: 2%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.hr{
+    margin-bottom: 20px;
+}
+.h-a{
+    font-size: 2.5rem;
+   margin-left: 15px;
+    color: black;
+    border: 2px solid black;
+    font-family: raleway;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    padding: 1% 3%;
+    background-color: white;
+    width: 250px;
+    font-weight: 800;   
+}
+.h-a:hover{
+    scale: 1.1;
+    transition: 0.3s ease;
+}
+.p-a{
+    
+    font-family:tilt neon;
+    /* margin-top: 60px; */
+    padding: 3%;
+    letter-spacing: 0.6px;
+}
+.left{
+    width: 600px;
+   padding-left: 20px;
+   
+}
+.right{
+    width: 200px;
+    padding: 2%;
+}
+.img{
+    position: relative;
+    left: 180px;
+    top: 180px;
+}
+.social{
+    color: gray;
+    margin-left: 10px;
+    
+}
+@media only screen and (max-width: 600px) {
+    .about{
+        margin-top: 70%;
+        width: 300px;
+      
+        padding: 0;
+    }
+    .right{
+        display: none;
+    }
+    .upper{
+        margin: 0 2%;
+        box-shadow: 0 0 0 ;
+    }
+    .h-a{
+        font-size: 1.5rem;
+        width: 150px;
+    }
+    .p-a{
+       position: relative;
+       right: 20px;
+    }
+    .hr{
+        position: relative;
+       right: 10px;
+    }
+}
